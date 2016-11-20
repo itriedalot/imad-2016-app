@@ -1,17 +1,41 @@
 <!doctype html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+        <title> Home </title>
+        <link href = "/ui/style.css" rel = "stylesheet" />
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+        <div class = "container">
+        <div class = "img-medium">
+            <img src="/ui/shree.jpg"/>
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! Trying again and this is my new try hahahahahaha :D
+        <hr/>  
+        <div >
+            <p>
+            Hi! I am Shreetama Ray.
+            This is my personal biography
+            If you want to know more about me, then this is the perfect platform.
+            Here are some things I want to tell about myself:
+            <ul>
+                <li><a href = "/personal"> Personal Information </a></li>
+                <hr/>
+                <li><a href = "/work"> Proffessional Information</a></li>
+                </hr>
+                <li><a href = "/interest"> My likes and Interests</a></li>
+                </hr>
+
+            </ul>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+        <div class = "footer">
+            Do you like my profile? <button id = "counter"> YES </button>
+            <span id = "count"> 0 </span> likes till now.
+            <hr/>
+            <input type ="text" id = "name" placeholder = "name"></input>
+            <input type ="submit" value = "Submit" id="submit_btn"></input>
+            <ul id = "namelist">
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src = "ui/main.js"></script>
     </body>
 </html>
